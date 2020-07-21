@@ -3,16 +3,19 @@ spring:
     oauth2:
       client:
         registration:
-          facebook:
-            clientId: 2651104775149353
-            clientSecret: 9dc1d65c31ff4677c4947ec3b42d105e
-            accessTokenUri: https://graph.facebook.com/oauth/access_token
-            userAuthorizationUri: https://www.facebook.com/dialog/oauth
-            tokenName: oauth_token
-            authenticationScheme: query
-            clientAuthenticationScheme: form
-            resource:
-              userInfoUri: https://graph.facebook.com/me
+          github:
+            clientId: 83ac771b917ee23db7f6
+            clientSecret: 0c35829f383f356e4a600689dc651b8eab762758
+#          facebook:
+#            clientId: 2651104775149353
+#            clientSecret: 9dc1d65c31ff4677c4947ec3b42d105e
+#            accessTokenUri: https://graph.facebook.com/oauth/access_token
+#            userAuthorizationUri: https://www.facebook.com/dialog/oauth
+#            tokenName: oauth_token
+#            authenticationScheme: query
+#            clientAuthenticationScheme: form
+#            resource:
+#              userInfoUri: https://graph.facebook.com/me
 
 server:
   port: 8080
