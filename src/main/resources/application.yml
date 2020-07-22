@@ -3,12 +3,20 @@ spring:
     oauth2:
       client:
         registration:
-          github:
-            clientId: 83ac771b917ee23db7f6
-            clientSecret: 0c35829f383f356e4a600689dc651b8eab762758
+          google:
+            clientId: 1090394081080-rloo18gkffem52kmblbbjjcoqofoiprf.apps.googleusercontent.com
+            clientSecret: MZh_hQFMs4FAU8hI6qfL5GPo
+#            redirectUri: postmessage
+#            redirect-url: postmessage
+#            redirect-uri: postmessage
+#            RedirectUrl: postmessage
+#            RedirectUri: postmessage
+#          github:
+#            clientId: 83ac771b917ee23db7f6
+#            clientSecret: ff18a14a8fd914ce6d9a021befaf8a2002f2a46c
 #          facebook:
 #            clientId: 2651104775149353
-#            clientSecret: 9dc1d65c31ff4677c4947ec3b42d105e
+#            clientSecret: bdcfb2d46bc1e800bc81865df386451e
 #            accessTokenUri: https://graph.facebook.com/oauth/access_token
 #            userAuthorizationUri: https://www.facebook.com/dialog/oauth
 #            tokenName: oauth_token
@@ -18,4 +26,4 @@ spring:
 #              userInfoUri: https://graph.facebook.com/me
 
 server:
-  port: 8080
+  port: 8081
